@@ -1,0 +1,15 @@
+export const defaultTheme = {
+  YELLOW: '#D18000',
+
+  GREEN: '#14FF00',
+
+  PURPLE_LIGHT: '#5C16C5',
+  PURPLE_DARK: '#2D0C5E',
+
+  WHITE: '#FFFFFF',
+  BASE_BUTTON: '#323232',
+  BASE_FILM: '#000000',
+  BASE_DATE: '#646464',
+  BASE_TEXT: '#DDDDDD',
+  BASE_SUBTITLE: '#131313',
+} as const
