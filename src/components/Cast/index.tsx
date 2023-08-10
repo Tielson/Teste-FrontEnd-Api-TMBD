@@ -13,14 +13,13 @@ interface Cast {
 }
 
 interface CombinedJobsProps {
-  jobs: string
+  jobs: string[]
   name: string
 }
 
 export function Cast({ genreId, apiKey }: CastProps) {
   const [cast, setCast] = useState<Cast[]>([])
   const [combinedJobs, setCombinedJobs] = useState<CombinedJobsProps[]>([])
-  console.log(cast)
   console.log(combinedJobs)
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -66,7 +65,7 @@ export function Cast({ genreId, apiKey }: CastProps) {
         }
       }
       return acc
-    }, [])
+    }, [] as CombinedJobsProps[])
     setCombinedJobs(combinedJobsData)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cast])
@@ -76,7 +75,7 @@ export function Cast({ genreId, apiKey }: CastProps) {
       {combinedJobs.slice(0, 5).map((member) => (
         <div key={member.name}>
           <h2>{member.name}</h2>
-          <p> {member.jobs.join(', ')}</p>
+          <p> {member.jobs.join(',')}</p>
         </div>
       ))}
     </Container>
