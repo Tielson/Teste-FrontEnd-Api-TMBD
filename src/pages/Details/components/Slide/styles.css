@@ -14,37 +14,37 @@
 
 @media (max-width: 1450px) {
   .splide__slide {
-    width: calc(25%) !important;
+    width: calc(35%) !important;
   }
  }
 
 @media (max-width: 900px) {
   .splide__slide {
-    width: calc(30%) !important;
+    width: calc(40%) !important;
   }
  }
 @media (max-width: 800px) {
   .splide__slide {
-    width: calc(40%) !important;
+    width: calc(50%) !important;
   }
  }
 
 @media (max-width: 650px) {
   .splide__slide {
-    width: calc(45%) !important;
+    width: calc(55%) !important;
   }
  }
 
 @media (max-width: 530px) {
   .splide__slide {
-    width: calc(60%) !important;
+    width: calc(70%) !important;
   }
  }
 
  
  @media (max-width: 450px) {
    .splide__slide {
-     width: calc(70%) !important;
+     width: calc(80%) !important;
    }
   }
 

@@ -9,7 +9,7 @@ export const Container = styled.div`
     gap: 1.5rem;
   }
   .section .react-player {
-    width: 85vw !important;
+    width: 60vw !important;
   }
   h1 {
     color: ${(props) => props.theme.BASE_FILM};

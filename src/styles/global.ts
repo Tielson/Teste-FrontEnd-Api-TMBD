@@ -47,21 +47,19 @@ text-decoration: none;
 @media (max-width: 900px) {
  .section{
   width: 600px;
-  padding: 2rem;
+  padding: 0;
 }
 }
 
 @media (max-width: 750px) {
  .section{
   width: 400px;
-  padding: 2rem;
 }
 }
 
 @media (max-width: 500px) {
  .section{
   width: 300px;
-  padding: 2rem;
 }
 }
 
