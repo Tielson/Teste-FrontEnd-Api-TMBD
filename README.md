@@ -9,9 +9,10 @@
 ## Project description
 
 <p>Selection process for frontend dev at Plugoo.</p>
-<p>Project created from figma, using the free movie API [themoviedb](https://developers.themoviedb.org/3/getting-started/introduction) in its version 3.</p>
+<p>Project created from figma, using the free movie API <a href="https://developers.themoviedb.org/3/getting-started/introduction/" target="_blank"> themoviedb </a> in its version 3.</p>
 
-- [Deploy](https://teste-front-end-api-tmbd.vercel.app/)
+-<a href="https://teste-front-end-api-tmbd.vercel.app/" target="_blank"> Deploy</a>
+
 
 
 
