@@ -13,7 +13,8 @@ export function Slide({ ...restProps }: SlideProps) {
     perMove: 1,
     breakpoints: {
       1450: { perPage: 4 },
-      900: { perPage: 3 },
+      1250: { perPage: 3 },
+      900: { perPage: 2 },
       600: { perPage: 1 },
     },
   }
