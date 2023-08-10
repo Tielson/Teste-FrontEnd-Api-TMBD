@@ -44,24 +44,7 @@ text-decoration: none;
 }
 }
 
-@media (max-width: 900px) {
- .section{
-  width: 600px;
-  padding: 0;
-}
-}
 
-@media (max-width: 750px) {
- .section{
-  width: 400px;
-}
-}
-
-@media (max-width: 500px) {
- .section{
-  width: 300px;
-}
-}
 
 
 `
