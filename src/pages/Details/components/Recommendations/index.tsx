@@ -14,7 +14,12 @@ export function Recommendations({ genreId }: { genreId: string | undefined }) {
         const responseCast = await api.get(
           `/3/movie/${genreId}/recommendations?language=pt-BR&page=1`,
         )
-        setRecommendations(responseCast.data.results)
+
+        const filteredFilms = responseCast.data.results.filter(
+          (film: FilmsProps) => film.poster_path,
+        )
+
+        setRecommendations(filteredFilms)
       } catch (error) {
         console.error('Error:', error)
       }

@@ -53,7 +53,11 @@ export function Home() {
         }
 
         const response = await api.get(url)
-        setFilms(response.data.results)
+        const filteredFilms = response.data.results.filter(
+          (film: FilmsProps) => film.poster_path,
+        )
+
+        setFilms(filteredFilms)
       } catch (error) {
         console.error('Error:', error)
       }
